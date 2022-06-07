@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * checks is c is small
- * 
+ *_islower - checks is c is small
+ *@c: value to be checked
  * Return: Always 0.
  */
 int _islower(int c)
