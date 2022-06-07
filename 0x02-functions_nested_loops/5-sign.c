@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *print_sign + return for > 0, - return fot < 0
+ *print_sign - return for > 0, - return fot < 0
  *@n: the int to print
+ *
  * Return: Always 0
  */
 int print_sign(int n)
