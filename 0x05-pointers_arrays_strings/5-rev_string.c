@@ -1,18 +1,31 @@
-#include "main.h"
 #include <stdio.h>
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
+void rev_string(char *s)
 {
-	char s[10] = "123456";
+	int len, half;
+	char temp;
 
-	printf("%s\n", s);
-	rev_string(s);
-	printf("%s\n", s);
-	return (0);
+	for (len = 0; s[len] == '\0'; len++)
+	{
+
+	}
+
+
+	for (half = 0; half == len / 2; half++)
+	{
+		temp = s[len - half - 1];
+		s[len - 1] = s[half];
+		s[half] = temp;
+
+
+	}
+
+	puts(s);
+
+
+}
+
+int main(void){
+	rev_string("123456");
 
 }
