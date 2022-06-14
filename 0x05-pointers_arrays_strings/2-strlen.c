@@ -6,7 +6,7 @@
  */
 
 
-int_strlen(char *s)
+int_ strlen(char *s)
 
 {
 	int i = 0;
